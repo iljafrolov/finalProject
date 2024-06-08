@@ -1,6 +1,6 @@
 import React from "react";
 
-import { useTheme } from "../hooks/useTheme";
+import { useTheme } from "./hooks/useTheme";
 
 export const Button = ({ children, onClick, ...rest }) => {
   const theme = useTheme();

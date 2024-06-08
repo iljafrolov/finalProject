@@ -1,7 +1,7 @@
 import React from "react";
 
 import { ThemeToggle } from "./ThemeToggle";
-import { useTheme } from "../hooks/useTheme";
+import { useTheme } from "./hooks/useTheme";
 import { Nav } from "./Nav";
 
 export const Header = () => {

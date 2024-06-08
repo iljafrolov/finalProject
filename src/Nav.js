@@ -12,10 +12,10 @@ export const Nav = () => {
           <Link href="/">Home</Link>
         </ListItem>
         <ListItem>
-          <Link href="/about">About</Link>
+          <Link href="/about">Products</Link>
         </ListItem>
         <ListItem>
-          <Link href="/contact/sales">Sales</Link>
+          <Link href="/contact/sales">Cart</Link>
         </ListItem>
         <ListItem>
           <Link href="/contact/general">Contact</Link>
