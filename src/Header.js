@@ -2,7 +2,7 @@ import React from "react";
 
 import { ThemeToggle } from "./ThemeToggle";
 import { useTheme } from "./hooks/useTheme";
-import { Nav } from "./Nav";
+import { Nav } from "./Nav"; 
 
 export const Header = () => {
   const theme = useTheme();
