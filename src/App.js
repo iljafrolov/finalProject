@@ -1,4 +1,5 @@
 import React from "react";
+import "./Styles.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import { ThemeProvider } from "./theme";
@@ -7,6 +8,7 @@ import { ContentMain } from "./ContentMain";
 import { PageRoot } from "./PageRoot";
 import { ContentContacts } from "./ContentContacts";
 import { ContentAbout } from "./ContentAbout";
+import { Footer } from "./Footer"
 
 const router = createBrowserRouter([
   {
@@ -33,6 +35,7 @@ export const App = () => {
   return (
     <ThemeProvider>
       <RouterProvider router={router} />
+      <Footer />
     </ThemeProvider>
   );
 };
